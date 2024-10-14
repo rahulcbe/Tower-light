@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+button{
+    padding:10px;
+}
+#InputNum{
+    padding: 10px;
+}
+.game {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(175, 85%, 10%, 0.92);
+    margin: 0 25%;
+}
+
+.peg {
+    width: 30px;
+    height: 300px;
+    background: red;
+    position: absolute;
+    margin: 40px;
+    border-radius: 10%;
+}
+
+.disk {
+    width: 80px;
+    height: 200px;
+    text-align: center;
+    background: yellow;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    z-index: 10000;
+    position: absolute;
+}
